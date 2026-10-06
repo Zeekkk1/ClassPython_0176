@@ -6,3 +6,6 @@ class Rectangle:
         self.lebar = lebar
     def circumference(self):
         return 2 * (self.tinggi + self.lebar)
+    def area(self):
+        return self.tinggi * self.lebar
+    def _
