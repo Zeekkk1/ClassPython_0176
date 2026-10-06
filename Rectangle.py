@@ -1,3 +1,5 @@
 class Rectangle:
-    def __init__(self, length, width):
-        if length == 0 or width == 0:
+    def __init__(self, lebar, tinggi):
+        if tinggi == 0 or lebar == 0:
+            raise ValueError("tinggi dan lebar tidak bisa 0")
+        self.tinggi
