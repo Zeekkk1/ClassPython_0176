@@ -8,4 +8,5 @@ class Rectangle:
         return 2 * (self.tinggi + self.lebar)
     def area(self):
         return self.tinggi * self.lebar
-    def _
+    def __str__(self):
+        return "rectangle, " + str
