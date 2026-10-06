@@ -9,4 +9,4 @@ class Rectangle:
     def area(self):
         return self.tinggi * self.lebar
     def __str__(self):
-        return "rectangle, " + str(self.tinggi) + "panjang cm, dan " + str
+        return "rectangle, " + str(self.tinggi) + "panjang cm, dan " + str(self.lebar) + "lebar cm"
